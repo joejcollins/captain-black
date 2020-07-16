@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "justMyCode": true,
+    "configurations": [
+        {
+            "name": "Ansible Module: demonstration",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/ansible",
+            "module": "library.demonstration",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/test/args-demonstration.json"
+            ]
+        },
+        {
+            "name": "Flask: public_api",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "automation_rest.public_api:rest"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload",
+                "--port", "8090",
+                "--host", "0.0.0.0"
+            ],
+            "jinja": true
+        },
+        {
+            "name": "Python: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}"
+        }
+    ]
+}
