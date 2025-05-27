@@ -44,6 +44,6 @@ jobs:
         file: .devcontainer/Dockerfile
         push: true
         tags: |
-          ghcr.io/joejcollins/scott-tracy:latest
-          ghcr.io/joejcollins/scott-tracy:${{ env.COMMIT_SHORT_SHA }}
+          ghcr.io/joejcollins/captain-black:latest
+          ghcr.io/joejcollins/captain-black:${{ env.COMMIT_SHORT_SHA }}
 ...

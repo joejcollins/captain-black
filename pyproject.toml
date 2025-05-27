@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/earthroverprogram/scott-tracy"
+repository = "https://github.com/earthroverprogram/captain-black"
 
 [tool.pytest.ini_options]
 log_cli = false
