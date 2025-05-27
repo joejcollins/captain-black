@@ -1,5 +1,5 @@
 [project]
-name = "scott_tracy"
+name = "captain_black"
 version = "0.0.1"
 description = "Pilot of the swing-wing rocket-plane Thunderbird 1."
 authors = [ { name = "Joe J Collins", email = "joejcollins@gmail.com" },]
@@ -44,7 +44,7 @@ line-length = 88
 package = true
 
 [[tool.mypy.overrides]]
-module = ["scott_tracy.*"]
+module = ["captain_black.*"]
 follow_untyped_imports = true
 
 [tool.pyright]

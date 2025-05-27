@@ -7,11 +7,12 @@ clean: # Remove the environment.
 	find . -name "*.pyc" -exec rm -f {} \;
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
 
+.PHONY: docs
 docs: # Build the documentation.
-	cd docs && mkdocs build
+	cd docs && ../.venv/bin/mkdocs build
 
 docs-serve: # Serve the documention.
-	cd docs && mkdocs serve
+	cd docs && ../.venv/bin/mkdocs serve
 
 lint:  # Lint the code with ruff.
 	.venv/bin/ruff check ./src ./tests

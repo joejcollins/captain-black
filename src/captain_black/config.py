@@ -1,4 +1,4 @@
-"""Configuration file for the scott_tracy project.
+"""Configuration file for the captain_black project.
 
 This file defines various paths and settings used throughout the project.
 It also initializes logging and handles optional integration with tqdm.
@@ -10,7 +10,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from loguru import logger
 
-from scott_tracy.helpers import file_finder_service
+from captain_black.helpers import file_finder_service
 
 # Load environment variables from .env file if it exists
 load_dotenv()

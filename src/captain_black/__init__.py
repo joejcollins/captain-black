@@ -1,1 +1,1 @@
-from scott_tracy import config  # noqa: F401
+from captain_black import config  # noqa: F401
