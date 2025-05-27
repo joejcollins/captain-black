@@ -1,3 +1,3 @@
-# scott_tracy
+# captain-black
 
 Python project example template

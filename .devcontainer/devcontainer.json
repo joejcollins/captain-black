@@ -1,7 +1,7 @@
 {
 	"name": "captain-black: Python Template",
-	"dockerFile": "Dockerfile",
-	// "image": "ghcr.io/joejcollins/scott-tracy:latest",
+	// "dockerFile": "Dockerfile",
+	"image": "ghcr.io/joejcollins/captain-black:latest",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/starship:1": {}
 	},
